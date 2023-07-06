@@ -65,6 +65,13 @@ const handleSignOut = () => {
                     ) : null}
 
                         {false ? <button>Add Blog</button> : null}
+
+                    <div className="nav-link-wrapper">
+                        <NavLink exact to="/auth" activeClassName="nav-link-active">
+                            User Login
+                        </NavLink>
+                    </div>    
+
                 </div>
 
                 <div className="right-side">

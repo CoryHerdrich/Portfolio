@@ -36,12 +36,12 @@ export default class Login extends Component {
         )
         .then(response => {
             if (response.data.status === "created") {
-                console.log("Willkommen Zuhause"); 
+                console.log("Welcome!!"); 
                 this.props.handleSuccessfulAuth();
                 
             } else {
                 this.setState({
-                    errorText: "FALSCHE E-MAIL ODER PASSWORT"    
+                    errorText: "False E-Mail or Password"    
                 });
                 this.props.handleUnSuccessfulAuth();
             }          
