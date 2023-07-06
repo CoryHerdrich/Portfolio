@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+    font-family: 'Philosopher', sans-serif;
+    background-color: $cgr;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+a { 
+    color: inherit; 
+} 

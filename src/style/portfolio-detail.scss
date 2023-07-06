@@ -1,0 +1,56 @@
+.portfolio-detail-wrapper {
+    width: 100vw;
+
+
+    .banner {
+        height: 280px;
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 12px 12px rgb(134, 220, 61);
+    }
+
+    .portfolio-detail-description-wrapper {
+        text-align: center;
+        margin-top: 44px;
+        display: flex;
+        justify-content: center;
+
+        .description {
+            width: 740px;
+            font-size: 2em;
+            margin-bottom: 54px;
+        }
+    }
+
+    .bottom-content-wrapper {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .site-link {
+            padding: 6px;
+            background-color: $cgr;
+            border-radius: 8px;
+            text-decoration: underline;
+            color: $iwo;
+            font-size: 1.2em;
+            cursor: pointer;
+            border: 2px dashed $fgr;
+
+            &:hover {
+                background-color: $fgr;
+                border: 2px dashed $hgr;
+                
+            }
+        }
+    }
+
+
+
+
+
+}

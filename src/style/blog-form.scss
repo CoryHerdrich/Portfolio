@@ -1,0 +1,58 @@
+.blog-form-wrapper {
+    @include base-grid();
+    grid-template-columns: 1fr;
+    padding: 42px;
+
+  
+    @include input-element();
+    input {
+        margin-bottom: 0px;
+        color: $cgr;
+
+      
+    }
+    ::placeholder {
+        color: $cgr;
+        text-indent: 8px;
+    }
+
+    .image-uploaders {
+        @include base-grid();
+        grid-template-columns: 240px;
+        color: $cgr;
+
+        .filepicker {
+            border: 2px dashed $fgr;
+        }
+
+        .image-removal-link {
+            color: $cgr;
+            text-align: center;
+            margin-top: 14px;
+            cursor: pointer;
+            font-weight: 900;
+            font-size: large;
+            background: $agr;
+            border-bottom: 2px dashed $owh;
+            width: 140px;
+
+            &:hover {
+                background-color: $owh;
+                border: 2px dashed $fgr;
+                color: $cgr;
+            }
+        }
+
+        .portfolio-manager-image-wrapper {
+
+
+            img {
+                margin: 0px;
+
+                height: 350px;
+                border-radius: 8px;
+
+            }
+        }
+    }
+}

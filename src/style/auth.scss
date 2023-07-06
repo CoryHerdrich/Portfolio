@@ -1,0 +1,36 @@
+.auth-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+
+    .left-column {
+        background-size: cover;
+    }
+
+    .right-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $owh;
+        color: $cgr;
+
+        .auth-form-wrapper {
+            @include input-element();
+            @include base-grid();
+            padding: 44px;
+        }
+
+        .form-group {
+            display: flex;
+
+            svg {
+                font-size: 2em;
+                color: $fgr;
+                margin-right: 4px;
+            }
+
+        }
+
+    }
+}
+
