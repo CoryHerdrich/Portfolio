@@ -2,6 +2,7 @@
   "name": "cory-herdrichs-portfolio",
   "version": "1.0.0",
   "description": "Personal Portfolio App built in REACT",
+  "engines": {"node": "16.x"},
   "scripts": {
     "preinstall": "cp env.example.js env.js",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
