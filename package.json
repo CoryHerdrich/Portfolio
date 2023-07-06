@@ -1,7 +1,7 @@
 {
-  "name": "react-router",
+  "name": "cory-herdrichs-portfolio",
   "version": "1.0.0",
-  "description": "Basic skeleton codebase for React/Router applications.",
+  "description": "Personal Portfolio App built in REACT",
   "scripts": {
     "preinstall": "cp env.example.js env.js",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
@@ -95,6 +95,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "uglifyjs-webpack-plugin": "^1.2.7"
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.a6.4"
   }
 }
