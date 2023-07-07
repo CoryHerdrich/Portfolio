@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sorry from "../../../static/assets/images/auth/sorry.jpg";
+import sorry from "../../../static/assets/images/nomatch/sorry.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function() {
